@@ -1,0 +1,33 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .countries-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .countryCard {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .countryCard img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .countryCard p {
+    margin-top: 10px;
+  }
